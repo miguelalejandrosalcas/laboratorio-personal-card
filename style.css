@@ -1,0 +1,94 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --grisClaro: #9bcaf9;
+    --fuente-princpal: "Krub", sans-serif;
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/planta.png'), linear-gradient(to bottom, var(--grisClaro) 0%, var(--blanco) 100%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* background: cover; */
+}
+
+.card-presentacion{
+    position: 0 10px 1px 0;
+    width: 350px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+    margin: auto;
+}
+
+.card-presentacion:hover{
+    transform: translateY(-8px);
+}
+
+.card-presentacion img{
+    width: 300px;
+    height: 300;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.card-presentacion h2{
+    margin-top: 15px;
+    color: #333;
+}
+
+.card-presentacion h3{
+    color: #666;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.card-presentacion p{
+    color: #555;
+    line-height: 1.5;
+}
+
+.habilidades{
+    margin: 20px 0;
+}
+
+.habilidades span{
+    display: inline-block;
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.btn-contacto{
+    display: inline-block;
+    text-decoration: none;
+    background: #4CAF50;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn-contacto:hover{
+    background: #388e3c;
+}
+
+
